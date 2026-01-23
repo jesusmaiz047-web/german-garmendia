@@ -1,0 +1,161 @@
+body {background-image: url(imagenes/german.jpg);
+background-size: contain;}
+
+.Contenedor {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer";
+    gap: 16px;
+    min-height: 100vh;
+}
+
+/* Para los Titulos */
+h1 {
+    color:aliceblue
+}
+
+h2 {
+    text-shadow: 1px 1px 5px rgb(230, 9, 9);
+    color: rgb(255, 151, 81);
+    font-size: 150%;
+    text-align: center;
+}
+
+h3 {
+    text-shadow: 1px 1px 5px rgb(230, 9, 9);
+    color: rgb(255, 151, 81);
+    font-size: 150%;
+    text-align: center;
+}
+
+h4 {
+    text-shadow: 1px 1px 5px rgb(230, 9, 9);
+    color: rgb(255, 151, 81);
+    font-size: 150%;
+    text-align: center;
+}
+
+h5 {
+    text-shadow: 1px 1px 5px rgb(230, 9, 9);
+    color: rgb(255, 151, 81);
+    font-size: 150%;
+    text-align: center;
+}
+
+h6 {
+    text-shadow: 1px 1px 5px rgb(230, 9, 9);
+    color: rgb(255, 151, 81);
+    font-size: 150%;
+    text-align: center;
+}
+
+.header{
+    grid-area: header;
+    background-color: rgba(62, 24, 11, 0.211);
+    padding: 16px;
+    text-align: center;
+    text-shadow: 2px 1px 15px rgb(47, 236, 214);
+    border: 5px solid rgb(80, 37, 27);
+    border-radius: 30px;
+}
+
+.redes{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.redes img:hover {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    transform: scale(1.2);
+    transition: 1s;
+    
+}
+
+.header p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 91, 37);
+}
+
+.aside{
+    grid-area: aside;
+    background-color: rgba(255, 255, 255, 0.375);
+    border: 5px solid rgb(233, 71, 71);
+    border-radius: 17px;
+}
+
+.main{
+    grid-area: main;
+    background-color: rgba(149, 212, 200, 0.622);
+    border-radius: 30px;
+    border: 5px solid beige;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: rgba(255, 255, 255, 0.589);
+    text-align: center;
+    margin: 0%;
+    bottom: 0;
+    width: 100%;
+    align-self: end;
+}
+
+section { 
+    padding: 10px;
+    border: 2px solid rgb(251, 251, 251);
+    margin: 30px;
+    border-radius: 15px;
+}
+
+p{
+    font-size: large
+}
+
+.GerGar1 {
+    box-shadow: 0 0 5px rgb(70, 70, 246),
+    0 0 25px rgb(62, 227, 224);
+}
+
+.GerGar1:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0 0 5px rgb(191, 64, 64),
+    0 0 25px rgb(255, 191, 102),
+    0 0 50px   rgb(255, 201, 85),
+    0 0 100px red;
+}
+
+.GerGar2 {
+    box-shadow: 0 0 5px rgb(70, 70, 246),
+    0 0 25px rgb(62, 227, 224);
+}
+
+.GerGar2:hover { 
+  transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0 0 5px rgb(191, 64, 64),
+    0 0 25px rgb(255, 191, 102),
+    0 0 50px   rgb(255, 201, 85),
+    0 0 100px red;
+}
+
+.epa {
+    display: flex;
+    justify-content: center;
+}
+
+.hellou {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: center;
+} 
+
+
